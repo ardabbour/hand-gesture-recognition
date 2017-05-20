@@ -77,7 +77,7 @@ while True:
 
         IM2, CONTOURS, HIERARCHY = cv2.findContours(CANNY, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 
-        KERNEL = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5, 5))        
+        KERNEL = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5, 5))
         KERNEL_MOD = np.ones((5, 5), np.uint8)
         MORPH = cv2.erode(CANNY, KERNEL, iterations=2)
         MORPH = cv2.dilate(CANNY, KERNEL, iterations=2)
