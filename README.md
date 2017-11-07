@@ -1,4 +1,4 @@
 # Hand Gesture Recognition
-Robustly recognize hand gestures (mostly finger gestures, but also including things like hand orientation), fast.
+**Due to time constraints, this project has been postponed until further notice.**
 
-## Under construction!
+Robustly recognize hand gestures (mostly finger gestures, but also including things like hand orientation), fast.
